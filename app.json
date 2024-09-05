@@ -39,7 +39,7 @@
     "ANTI_DELETE": {
             "description": "Anti delete to true or false",
             "required": false,
-            "value": true
+            "value": "true"
 },
     "WORK_TYPE": {
             "description": "WORK_TYPE can be public or private",
