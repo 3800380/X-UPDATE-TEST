@@ -69,6 +69,9 @@ const {
   }
   const axios = require('axios');
   const path = require('path');
+  const msgRetryCounterCache = new NodeCache();
+  const ownerNumber = config.OWNER_NUMBER;
+
   function decodeBase64(_0x391b35) {
     return Buffer.from(_0x391b35, 'base64').toString("utf-8");
   }
