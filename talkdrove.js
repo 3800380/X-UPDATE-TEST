@@ -1226,8 +1226,8 @@ const {
         if (config.AUTO_BLOCK == true && _0x285b77.chat.endsWith("@s.whatsapp.net")) {
           return _0x1a43b.updateBlockStatus(_0x285b77.sender, "block");
         }
-        if (_0x1b19d1.sender.startsWith(config.BLOCK_COUNTRY_PREFIX) && config.IS_BLOCK_COUNTRY_ON === true) {
-          return _0x2c419a.updateBlockStatus(_0x1b19d1.sender, "block");
+        if (_0x285b77.sender.startsWith(config.BLOCK_COUNTRY_PREFIX) && config.IS_BLOCK_COUNTRY_ON === true) {
+          return _0x2c419a.updateBlockStatus(_0x285b77.sender, "block");
         }
         if (config.ANTI_LINK == true) {
           if (_0x41211a && _0x8f9094) {
