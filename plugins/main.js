@@ -79,12 +79,12 @@ if (config.COMMAND_TYPE === "button") {
     }
   });
   const _0x2272e9 = {
-    pattern: "menu",
-    react: '✅',
-    alias: ["panel", "list", "commands", "cmd"],
-    desc: "Get bot's command list.",
+    pattern: "menu2",
+    react: '2️⃣',
+    alias: ["panel", "buttons", "commands", "cmd"],
+    desc: "Get bot's buttoned version commands list.",
     category: "main",
-    use: ".menu",
+    use: ".menu2",
     filename: __filename
   };
   cmd(_0x2272e9, async (_0x224d5f, _0x210678, _0x185276, {
@@ -107,7 +107,7 @@ if (config.COMMAND_TYPE === "button") {
           }
         }
       }
-      const _0x467f9b = "POWERED BY TALKDROVE\n\t    \n```👋 Hello " + _0x5c0de4 + "```" + "\n\n╭───═❮ *ᴍᴇɴᴜ ʟɪsᴛ* ❯═───\n│ *𝙑𝙀𝙍𝙎𝙄𝙊𝙉:* " + require("../package.json").version + "\n│ *𝙈𝙀𝙈𝙊𝙍𝙔:* " + (process.memoryUsage().heapUsed / 1024 / 1024).toFixed(2) + "MB / " + Math.round(require('os').totalmem / 1024 / 1024) + "MB\n│ *𝙍𝙐𝙉𝙏𝙄𝙈𝙀:* " + runtime(process.uptime()) + "\n│ *𝙋𝙇𝘼𝙏𝙁𝙊𝙍𝙈:* " + hostname + "\n╰━━━━━━━━━━━━━━━┈⊷";
+      const _0x467f9b = "```👋 Hello " + _0x5c0de4 + "```" + "\n\n╭───═❮ *ᴍᴇɴᴜ ʟɪsᴛ* ❯═───\n│ *𝙑𝙀𝙍𝙎𝙄𝙊𝙉:* " + require("../package.json").version + "\n│ *𝙈𝙀𝙈𝙊𝙍𝙔:* " + (process.memoryUsage().heapUsed / 1024 / 1024).toFixed(2) + "MB / " + Math.round(require('os').totalmem / 1024 / 1024) + "MB\n│ *𝙍𝙐𝙉𝙏𝙄𝙈𝙀:* " + runtime(process.uptime()) + "\n│ *𝙋𝙇𝘼𝙏𝙁𝙊𝙍𝙈:* " + hostname + "\n╰━━━━━━━━━━━━━━━┈⊷";
       const _0x59d966 = [];
       const _0x5f4765 = new Map();
       for (let _0x2a2185 = 0; _0x2a2185 < commands.length; _0x2a2185++) {
@@ -163,7 +163,7 @@ if (config.COMMAND_TYPE === "button") {
     }
   });
   const _0x1fa9d7 = {
-    pattern: "menu2",
+    pattern: "menu",
     react: '📂',
     alias: ["help"],
     desc: "Get bot's command list.",
@@ -279,7 +279,7 @@ if (config.COMMAND_TYPE === "button") {
         }
       }
       ;
-      let _0x149727 = "*Hello* " + _0x2a6e1b + "\n\n*╭─     Menu*\n*│𝘙𝘶𝘯 𝘛𝘪𝘮𝘦 -* " + runtime(process.uptime()) + " \n*│𝘙𝘢𝘮 𝘜𝘴𝘦 -* " + (process.memoryUsage().heapUsed / 1024 / 1024).toFixed(2) + "MB / " + Math.round(require('os').totalmem / 1024 / 1024) + "MB\n*╰──────────●●►*\n*𝘊𝘰𝘮𝘮𝘢𝘮𝘥 𝘗𝘢𝘯𝘦𝘭*\n> *╭──────────●●►*\n> *│DOWNLOAD COMMANDS*\n> *│   ───────*\n\n" + _0x250f4e + "*╰───────────●●►*\n> *╭──────────●●►*\n> *│SEARCH COMMANDS*\n> *│   ───────*\n\n" + _0x203ea2 + "*╰───────────●●►*\n\n> *╭──────────●●►*\n> *│CONVERT COMMANDS*\n> *│   ───────*\n\n" + _0x1bf356 + "*╰───────────●●►*\n\n> *╭──────────●●►*\n> *│LOGO COMMANDS*\n> *│   ───────*\n\n" + _0x14686e + "*╰───────────●●►*\n\n> *╭──────────●●►*\n> *│MAIN COMMANDS*\n> *│   ───────*\n\n" + _0x52e1a7 + "*╰───────────●●►*\n\n> *╭──────────●●►*\n> *│GROUP COMMANDS*\n> *│   ───────*\n\n" + _0x1ab21c + "*╰───────────●●►*\n\n> *╭──────────●●►*\n> *│BUG COMMANDS*\n> *│   ───────*\n\n" + _0x5e016c + "*╰───────────●●►*\n\n> *╭──────────●●►*\n> *│MOVIE COMMANDS*\n> *│   ───────*\n\n" + _0x5b9980 + "*╰───────────●●►*\n\n> *╭──────────●●►*\n> *│OTHER COMMANDS*\n> *│   ───────*\n\n" + _0x1e3d00 + "*╰───────────●●►*\t\n\nX-BYTE BY TALKDROVE";
+      let _0x149727 = "*╭─ *X-BYTE Menu*\n*│𝘙𝘶𝘯 𝘛𝘪𝘮𝘦 -* " + runtime(process.uptime()) + " \n*│𝘙𝘢𝘮 𝘜𝘴𝘦 -* " + (process.memoryUsage().heapUsed / 1024 / 1024).toFixed(2) + "MB / " + Math.round(require('os').totalmem / 1024 / 1024) + "MB\n*╰──────────►*\n*𝘊𝘰𝘮𝘮𝘢𝘮𝘥 𝘗𝘢𝘯𝘦𝘭*\n> *╭──────────►*\n> *│DOWNLOAD COMMANDS*\n> *│   ───────*\n\n" + _0x250f4e + "**\n> *╭──────────►*\n> *│SEARCH COMMANDS*\n> *│   ───────*\n\n" + _0x203ea2 + "**\n\n> *╭──────────►*\n> *│CONVERT COMMANDS*\n> *│   ───────*\n\n" + _0x1bf356 + "**\n\n> *╭──────────►*\n> *│LOGO COMMANDS*\n> *│   ───────*\n\n" + _0x14686e + "**\n\n> *╭──────────►*\n> *│MAIN COMMANDS*\n> *│   ───────*\n\n" + _0x52e1a7 + "**\n\n> *╭──────────►*\n> *│GROUP COMMANDS*\n> *│   ───────*\n\n" + _0x1ab21c + "**\n\n> *╭──────────►*\n> *│BUG COMMANDS*\n> *│   ───────*\n\n" + _0x5e016c + "**\n\n> *╭──────────►*\n> *│MOVIE COMMANDS*\n> *│   ───────*\n\n" + _0x5b9980 + "**\n\n> *╭──────────►*\n> *│OTHER COMMANDS*\n> *│   ───────*\n\n" + _0x1e3d00 + "**\t\n\nX-BYTE BY TALKDROVE";
       const _0x38dc42 = {
         display_text: config.BTN,
         url: config.BTNURL,
@@ -317,7 +317,7 @@ if (config.COMMAND_TYPE === "button") {
       for (let _0x385395 = 0; _0x385395 < commands.length; _0x385395++) {
         const _0x2d51b7 = commands[_0x385395];
         if (_0x2d51b7.category.toUpperCase() === _0x110ba7) {
-          _0x499a20 += "╭────────●●►\n│ • *" + _0x2d51b7.pattern + "* \n╰────────────────────●●►\n";
+          _0x499a20 += "╭────────►\n│ • *" + _0x2d51b7.pattern + "* \n╰────────────────────►\n";
         }
       }
       _0x499a20 += "\n*Total Commands List " + _0x110ba7 + "*: " + commands.filter(_0x5758a2 => _0x5758a2.category.toUpperCase() === _0x110ba7).length + "\n\n" + "*X-BYTE*\n*By TalkDrove*";
@@ -480,13 +480,13 @@ if (config.COMMAND_TYPE === "button") {
           }
         }
       }
-      const _0x5171dc = "```👋 Hello " + _0x1cfcf0 + "```" + "\n\n*👾 X-BYTE commands menu...*\n  \n> *Version:* " + require("../package.json").version + "\n> *Memory:* " + (process.memoryUsage().heapUsed / 1024 / 1024).toFixed(2) + "MB / " + Math.round(require('os').totalmem / 1024 / 1024) + "MB\n> *Runtime:* " + runtime(process.uptime()) + "\n> *Platform:* " + hostname + "\n*X-BYTE WHATSAPP USER BOT* 💫\n\n                     *OUR MISSION*\n\n🐼This is the result of our teams hard work and our technical cybers team owns the bots rights and code rights. Therefore, you have no chance to change and submit our bot under any circumstances And 100 Commands And logo, thumbnail,banner Maker Commands Ai Chatbot feathers On Our Bot\n\n\n🐼 The main hope of creating this bot is to take full advantage of the WhatsApp app and make its work easier\n\n";
+      const _0x5171dc = "```👋 Hello " + _0x1cfcf0 + "```" + "\n\n*I'm Here X-BYTE..*\n  \n> *Version:* " + require("../package.json").version + "\n> *Memory:* " + (process.memoryUsage().heapUsed / 1024 / 1024).toFixed(2) + "MB / " + Math.round(require('os').totalmem / 1024 / 1024) + "MB\n> *Runtime:* " + runtime(process.uptime()) + "\n> *Platform:* " + hostname + "\nI'm created by _Hamza_ ";
       let _0x1ea9af = [{
         'name': "cta_url",
         'buttonParamsJson': JSON.stringify({
           'display_text': "YT CHANNEL",
-          'url': "https://youtube.com/@gamingewingyt6216?si=4Ds50i6gx8_IrZol",
-          'merchant_url': "https://youtube.com/@gamingewingyt6216?si=4Ds50i6gx8_IrZol"
+          'url': "https://youtube.com/@talkdrove",
+          'merchant_url': "https://youtube.com/@talkdrove"
         })
       }, {
         'name': "cta_url",
