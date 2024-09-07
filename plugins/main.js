@@ -51,7 +51,7 @@ if (config.COMMAND_TYPE === "button") {
     reply: _0x13619a
   }) => {
     try {
-      const _0x5625cb = "\nHamza".trim();
+      const _0x5625cb = "\nX-BYTE want money from youuuuu".trim();
       const _0x496cb1 = {
         showAdAttribution: true
       };
@@ -164,7 +164,7 @@ if (config.COMMAND_TYPE === "button") {
   });
   const _0x1fa9d7 = {
     pattern: "menu",
-    react: '📂',
+    react: '✅',
     alias: ["help"],
     desc: "Get bot's command list.",
     category: "main",
@@ -279,7 +279,7 @@ if (config.COMMAND_TYPE === "button") {
         }
       }
       ;
-      let _0x149727 = "*╭─ *X-BYTE Menu*\n*│𝘙𝘶𝘯 𝘛𝘪𝘮𝘦 -* " + runtime(process.uptime()) + " \n*│𝘙𝘢𝘮 𝘜𝘴𝘦 -* " + (process.memoryUsage().heapUsed / 1024 / 1024).toFixed(2) + "MB / " + Math.round(require('os').totalmem / 1024 / 1024) + "MB\n*╰──────────►*\n*𝘊𝘰𝘮𝘮𝘢𝘮𝘥 𝘗𝘢𝘯𝘦𝘭*\n> *╭──────────►*\n> *│DOWNLOAD COMMANDS*\n> *│   ───────*\n\n" + _0x250f4e + "**\n> *╭──────────►*\n> *│SEARCH COMMANDS*\n> *│   ───────*\n\n" + _0x203ea2 + "**\n\n> *╭──────────►*\n> *│CONVERT COMMANDS*\n> *│   ───────*\n\n" + _0x1bf356 + "**\n\n> *╭──────────►*\n> *│LOGO COMMANDS*\n> *│   ───────*\n\n" + _0x14686e + "**\n\n> *╭──────────►*\n> *│MAIN COMMANDS*\n> *│   ───────*\n\n" + _0x52e1a7 + "**\n\n> *╭──────────►*\n> *│GROUP COMMANDS*\n> *│   ───────*\n\n" + _0x1ab21c + "**\n\n> *╭──────────►*\n> *│BUG COMMANDS*\n> *│   ───────*\n\n" + _0x5e016c + "**\n\n> *╭──────────►*\n> *│MOVIE COMMANDS*\n> *│   ───────*\n\n" + _0x5b9980 + "**\n\n> *╭──────────►*\n> *│OTHER COMMANDS*\n> *│   ───────*\n\n" + _0x1e3d00 + "**\t\n\nX-BYTE BY TALKDROVE";
+      let _0x149727 = "*╭─ *X-BYTE MENU*\n*│RUN TIME -* " + runtime(process.uptime()) + " \n*│RAM USEAGE -* " + (process.memoryUsage().heapUsed / 1024 / 1024).toFixed(2) + "MB / " + Math.round(require('os').totalmem / 1024 / 1024) + "MB\n*╰──────────►*\n*𝘊𝘰𝘮𝘮𝘢𝘮𝘥s:*\n> *╭──────────►*\n> *│DOWNLOAD COMMANDS*\n> *│   ───────*\n\n" + _0x250f4e + "**\n> *╭──────────►*\n> *│SEARCH COMMANDS*\n> *│   ───────*\n\n" + _0x203ea2 + "**\n\n> *╭──────────►*\n> *│CONVERT COMMANDS*\n> *│   ───────*\n\n" + _0x1bf356 + "**\n\n> *╭──────────►*\n> *│LOGO COMMANDS*\n> *│   ───────*\n\n" + _0x14686e + "**\n\n> *╭──────────►*\n> *│MAIN COMMANDS*\n> *│   ───────*\n\n" + _0x52e1a7 + "**\n\n> *╭──────────►*\n> *│GROUP COMMANDS*\n> *│   ───────*\n\n" + _0x1ab21c + "**\n\n> *╭──────────►*\n> *│BUG COMMANDS*\n> *│   ───────*\n\n" + _0x5e016c + "**\n\n> *╭──────────►*\n> *│MOVIE COMMANDS*\n> *│   ───────*\n\n" + _0x5b9980 + "**\n\n> *╭──────────►*\n> *│OTHER COMMANDS*\n> *│   ───────*\n\n" + _0x1e3d00 + "**\t\n\nX-BYTE BY TALKDROVE";
       const _0x38dc42 = {
         display_text: config.BTN,
         url: config.BTNURL,
@@ -353,6 +353,82 @@ if (config.COMMAND_TYPE === "button") {
     } catch (_0x39f35f) {
       _0x2c4d85("*Error !!*");
       console.log(_0x39f35f);
+    }
+  });
+  const HamzaUptime = {
+    pattern: "runtime",
+    react: '🐼',
+    alias: ["uptime", "runntime"],
+    desc: "check bot runtime/Uptime.",
+    category: "main",
+    use: ".alive",
+    filename: __filename
+  };  cmd(HamzaUptime, async (_0x2ab133, _0x278f51, _0x5795b9, {
+    from: _0x296db0,
+    prefix: _0x28ce95,
+    l: _0x1bf97e,
+    quoted: _0x3e60de,
+    body: _0x2bac96,
+    isCmd: _0x2aa363,
+    command: _0x2dd264,
+    args: _0x5953fa,
+    q: _0x597566,
+    isGroup: _0x399459,
+    sender: _0x11c7c9,
+    senderNumber: _0xcc7c43,
+    botNumber2: _0x556a26,
+    botNumber: _0x5971e4,
+    pushname: _0x163ace,
+    isMe: _0x467031,
+    isOwner: _0xe096b5,
+    groupMetadata: _0x68a1e4,
+    groupName: _0x32e529,
+    participants: _0x3872ad,
+    groupAdmins: _0x5d03ea,
+    isBotAdmins: _0x258f5b,
+    isAdmins: _0x45e1e2,
+    reply: _0x19f52e
+  }) => {
+    try {
+      if (os.hostname().length == 12) {
+        hostname = "replit";
+      } else {
+        if (os.hostname().length == 36) {
+          hostname = "heroku";
+        } else {
+          if (os.hostname().length == 8) {
+            hostname = "koyeb";
+          } else {
+            hostname = os.hostname();
+          }
+        }
+      }
+      const _0x1b867b = "*_X-BYTE, running for_" +runtime(process.uptime()); +" 🐼*"
+      const _0x13e421 = {
+        display_text: config.BTN,
+        url: config.BTNURL,
+        merchant_url: config.BTNURL
+      };
+      let _0x5dd909 = [{
+        'name': "cta_url",
+        'buttonParamsJson': JSON.stringify(_0x13e421)
+      }, {
+        'name': "quick_reply",
+        'buttonParamsJson': JSON.stringify({
+          'display_text': "Get Menu",
+          'id': _0x28ce95 + "menu"
+        })
+      }];
+      const _0x5e281e = {
+        image: config.LOGO,
+        header: '',
+        footer: config.FOOTER,
+        body: _0x1b867b
+      };
+      return await _0x2ab133.sendButtonMessage(_0x296db0, _0x5dd909, _0x5795b9, _0x5e281e);
+    } catch (_0x557b1b) {
+      _0x19f52e("*Error !!*");
+      console.log(_0x557b1b);
     }
   });
   const _0x258102 = {
@@ -480,7 +556,7 @@ if (config.COMMAND_TYPE === "button") {
           }
         }
       }
-      const _0x5171dc = "```👋 Hello " + _0x1cfcf0 + "```" + "\n\n*I'm Here X-BYTE..*\n  \n> *Version:* " + require("../package.json").version + "\n> *Memory:* " + (process.memoryUsage().heapUsed / 1024 / 1024).toFixed(2) + "MB / " + Math.round(require('os').totalmem / 1024 / 1024) + "MB\n> *Runtime:* " + runtime(process.uptime()) + "\n> *Platform:* " + hostname + "\nI'm created by _Hamza_ ";
+      const _0x5171dc = "```👋 Hello " + _0x1cfcf0 + "```" + "\n\n*I'm Here X-BYTE..*\n  \n> *Version:* " + require("../package.json").version + "\n> *Memory:* " + (process.memoryUsage().heapUsed / 1024 / 1024).toFixed(2) + "MB / " + Math.round(require('os').totalmem / 1024 / 1024) + "MB\n> *Runtime:* " + runtime(process.uptime()) + "\n> *Platform:* " + hostname + "\nYou can get X-BYTE for free, follow TalkDrove for more updates ";
       let _0x1ea9af = [{
         'name': "cta_url",
         'buttonParamsJson': JSON.stringify({
